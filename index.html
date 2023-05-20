@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="main-styles.css">
+        <link rel="stylesheet" href="canvas-sizes.css">
+        <link rel="stylesheet" href="brush-colors.css">
+        <title>Canvas Drawer</title>
+    </head>
+    <body>
+        <h1>Super Awesome Canvas Drawer!</h1>
+
+        <div class="main-div">
+            <div class="size-canvas-tools">
+                <div class="size">
+                    <button id="2x2">2 X 2</button>
+                    <button id="4x4">4 X 4</button>
+                    <button id="8x8">8 X 8</button>
+                    <button id="16x16">16 X 16</button>
+                    <button id="32x32">32 X 32</button>
+                    <button id="64x64">64 X 64</button>
+                    <button id="128x128">128 X 128</button>
+                    <button id="256x256">256 X 256</button>
+                </div>
+
+                <div id="canvas"></div>
+
+                <div class="tools">
+                    <button id="brush-button">Brush</button>
+                    <button id="eraser-button">Eraser</button>
+                    <button id="fill-button">Fill</button>
+                    <button id="start-over-button">Start Over</button>
+                </div>
+            </div>
+
+            <div class="colors-section">
+                <button id="red" class="brush-color-red"></button>
+                <button id="orange" class="brush-color-orange"></button>
+                <button id="yellow" class="brush-color-yellow"></button>
+                <button id="yellowgreen" class="brush-color-yellowgreen"></button>
+                <button id="green" class="brush-color-green"></button>
+                <button id="lightblue" class="brush-color-lightblue"></button>
+                <button id="blue" class="brush-color-blue"></button>
+                <button id="violet" class="brush-color-violet"></button>
+                <button id="purple" class="brush-color-purple"></button>
+                <button id="pink" class="brush-color-pink"></button>
+                <button id="tan" class="brush-color-tan"></button>
+                <button id="brown" class="brush-color-brown"></button>
+                <button id="white" class="brush-color-white"></button>
+                <button id="lightgray" class="brush-color-lightgray"></button>
+                <button id="gray" class="brush-color-gray"></button>
+                <button id="black" class="brush-color-black"></button>
+            </div>
+        </div>
+
+        <div class="img-download-container">
+            <p>Like what you Drew?</p>
+            <p>Then why not save your beautiful creation as a downloadable image?</p>
+            <button id="save-img-button">Save masterpiece</button>
+        </div>
+
+        <script src="script.js"></script>
+        <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    </body>
+</html>

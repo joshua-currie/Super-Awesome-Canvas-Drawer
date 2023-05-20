@@ -1,0 +1,116 @@
+.canvas-size-2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.canvas-size-4
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.canvas-size-8
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.canvas-size-16
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.canvas-size-32
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.canvas-size-64
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.canvas-size-128
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.canvas-size-256
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                            1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.canvas-size-2,
+.canvas-size-4,
+.canvas-size-8,
+.canvas-size-16,
+.canvas-size-32,
+.canvas-size-64,
+.canvas-size-128,
+.canvas-size-256
+{
+    background-color: aliceblue;
+}
